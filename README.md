@@ -175,7 +175,7 @@ An interactive Streamlit dashboard provides:
 
 Run `streamlit run app.py` to launch the dashboard
 
-Link to dashboard: 
+Link to dashboard: https://bfsi-customer-360-cross-sell-dashboard-nurnfav9fj7oxrno4nqbhu.streamlit.app/
 
 Screenshots:
 
