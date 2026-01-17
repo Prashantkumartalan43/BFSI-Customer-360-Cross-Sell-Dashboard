@@ -1,4 +1,0 @@
-cluster_kmeans,age,income,tenure_years,avg_balance,digital_engagement_score,spend_to_income,emi_to_income,utilization_ratio,txn_activity_score,total_investments,risk_score,product_count
-0,43.11,711054.42,10.15,81223.05,0.56,0.22,0.11,0.12,17.98,68276.6,0.06,0.99
-1,41.53,291514.73,9.64,83260.36,0.56,0.48,0.83,0.28,17.6,125682.61,0.45,1.95
-2,42.94,699877.6,10.49,82303.32,0.55,0.24,0.19,0.69,17.44,132648.86,2.13,2.01
