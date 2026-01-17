@@ -1,4 +1,5 @@
 # BFSI-Customer-360-Cross-Sell-Dashboard
+
 This project mimics a real-world BFSI analytics workflow used in retail banking and fintech organizations.
 
 ## Project Overview
@@ -105,7 +106,7 @@ Evaluated K from 2 to 8 using Silhouette Score
 
 Best result observed at:
 
-K = 3 (Silhouette ≈ 0.126)
+```K = 3 (Silhouette ≈ 0.126)```
 
 ### Final Segments Identified
 Segment	Description
@@ -115,28 +116,31 @@ Segment	Description
 
 ## Segment Distribution
 
-1. Mass Retail / Low Engagement → ~49%
+| Segment | % of Customers | Description |
+|---------|----------------|-------------|
+| Mass Retail / Low Engagement | 49% | Low product holding, basic banking users |
+| Credit Active Middle Segment | 24% | High loan utilization customers |
+| Affluent & Investment Ready | 27% | High income and investment ready |
 
-2. Affluent & Investment Ready → ~27%
 
-3. Credit Active Middle Segment → ~24%
 
-This distribution closely mirrors real retail banking portfolios.
+## Product Penetration Insights
 
-📈 Product Penetration Insights
-Segment	Credit Card	Loan	Investments
-Affluent	~98%	~51%	~53%
-Credit Active	~65%	~79%	~50%
-Mass Retail	~35%	~33%	~30%
+| Segment | Credit Card | Loan | Investments |
+|---------|-------------|------|-------------|
+| Affluent | 98% | 51% | 53% |
+| Credit Active | 65% | 79% | 50% |
+| Mass Retail | 35% | 33% | 30% |
+
 Key Insights known from this:
 
-Affluent customers are saturated on cards but underpenetrated on investments.
+* Affluent customers are saturated on cards but underpenetrated on investments.
 
-Credit-active customers present strong refinancing and upsell potential.
+* Credit-active customers present strong refinancing and upsell potential.
 
-Mass retail customers offer large base for entry-level product growth.
+* Mass retail customers offer large base for entry-level product growth.
 
-🎯 Cross-Sell Recommendation Logic
+## Cross-Sell Recommendation Logic
 
 Each customer receives a rule-based recommendation aligned with their segment and product gaps.
 
@@ -144,37 +148,43 @@ Example Logic
 
 Affluent Segment
 
-Wealth products, premium cards, portfolio upgrades
+* Wealth products, premium cards, portfolio upgrades
 
 Credit Active Segment
 
-Loan top-ups, refinancing, card upgrades
+* Loan top-ups, refinancing, card upgrades
 
 Mass Retail Segment
 
-Savings, fixed deposits, micro-insurance, starter credit cards
+* Savings, fixed deposits, micro-insurance, starter credit cards
 
-📌 Campaign Sizing Output
-Offer	Customers
-Savings + FD + Micro Insurance	~1,470
-Premium Credit Card Upgrade	~431
-Wealth Products	~386
-Limit Enhancement / Cross Loan	~360
-Credit Card	~248
-Personal / Auto Loan	~105
 
-This allows marketing teams to size campaigns and estimate revenue impact.
-
-📊 Dashboard
+## Streamlit Dashboard
 
 An interactive Streamlit dashboard provides:
 
-Segment distribution visualization
+* Segment distribution visualization
 
-Product penetration by segment
+* Product penetration by segment
 
-Cross-sell campaign mix
+* Cross-sell campaign mix
 
-Customer-level lookup
+* Customer-level lookup
 
-Filter-driven analytics
+* Filter-driven analytics
+
+Run `streamlit run app.py` to launch the dashboard
+
+Link to dashboard: 
+
+Screenshots:
+
+1.
+<img width="1919" height="770" alt="image" src="https://github.com/user-attachments/assets/c264618c-f8ef-48d3-aae6-e4b4ba4245ff" />
+
+2.
+<img width="1917" height="558" alt="image" src="https://github.com/user-attachments/assets/8eb0a30c-58f6-4c51-87ab-49ade43bcc8e" />
+
+
+
+
