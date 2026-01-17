@@ -21,7 +21,7 @@ st.title("🏦 Customer 360 Segmentation & Cross-Sell Dashboard (BFSI)")
 # -------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/pktal/Customer 360 Segmentation/customer_360_final_with_strategy.csv")
+    return pd.read_csv("datasets/customer_360_final_with_strategy.csv")
 
 df = load_data()
 
