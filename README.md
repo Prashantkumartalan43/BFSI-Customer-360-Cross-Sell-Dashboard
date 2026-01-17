@@ -2,6 +2,8 @@
 
 This project mimics a real-world BFSI analytics workflow used in retail banking and fintech organizations.
 
+[Streamlit Dashboard link](https://bfsi-customer-360-cross-sell-dashboard-nurnfav9fj7oxrno4nqbhu.streamlit.app/)
+
 ## Project Overview
 
 Banks and financial institutions often struggle to maximize customer lifetime value due to fragmented data, limited behavioral segmentation, and generic cross-sell campaigns.
@@ -174,8 +176,6 @@ An interactive Streamlit dashboard provides:
 * Filter-driven analytics
 
 Run `streamlit run app.py` to launch the dashboard
-
-Link to dashboard: https://bfsi-customer-360-cross-sell-dashboard-nurnfav9fj7oxrno4nqbhu.streamlit.app/
 
 Screenshots:
 
